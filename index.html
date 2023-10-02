@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set the character encoding and viewport for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Worx---Weather App</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Create a card for the weather app -->
+    <div class="card">
+      <div class="search">
+        <!-- Input field for entering the city name -->
+        <input
+          type="text"
+          class="place"
+          placeholder="Enter City Name"
+          spellcheck="false"
+        />
+        <!-- Search button with an image -->
+        <button><img src="images/search.png" /></button>
+      </div>
+      <!-- Display warning messages if needed -->
+      <p class="warning"></p>
+      <!-- Weather information container -->
+      <div class="weather">
+        <!-- Weather icon -->
+        <img src="images/clouds.png" class="weather-icon" />
+        <!-- Temperature display -->
+        <h1 class="temp">22&deg;C</h1>
+        <!-- City name -->
+        <h2 class="city">New Delhi</h2>
+        <!-- Weather details section -->
+        <div class="details">
+          <div class="col">
+            <!-- Weather condition icon -->
+            <img src="images/drizzle.png" />
+            <div>
+              <!-- Humidity percentage -->
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Wind condition icon -->
+            <img src="images/wind.png" />
+            <div>
+              <!-- Wind speed -->
+              <p class="wind">10 km/hr</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Include the JavaScript file for functionality -->
+    <script src="script.js"></script>
+  </body>
+</html>

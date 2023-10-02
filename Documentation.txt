@@ -1,0 +1,60 @@
+
+**Project Title: Manish Worx Weather App**
+
+**Description:**
+The Manish Worx Weather App is a web-based application that allows users to check the weather for a specific city. It provides real-time weather data, including temperature, humidity, wind speed, and a weather icon representing the current conditions.
+
+**Files:**
+1. **index.html:** This HTML file contains the structure of the weather app's user interface.
+
+2. **style.css:** This CSS file defines the styles and layout of the weather app's user interface.
+
+3. **script.js:** This JavaScript file handles user interactions and fetches weather data from the OpenWeatherMap API.
+
+**Getting Started:**
+To set up and use this weather app, follow these steps:
+
+1. **Obtain API Key:**
+   - Visit [OpenWeatherMap](https://openweathermap.org/) and sign in or create an account.
+   - After signing in, go to the API Keys section.
+   - Generate a new API key, and keep it secure.
+
+2. **Insert API Key:**
+   - Open the `script.js` file.
+   - Locate the `apikey` variable at the beginning of the file.
+   - Replace the placeholder string with your OpenWeatherMap API key.
+
+3. **Usage:**
+   - Open the `index.html` file in a web browser.
+   - Enter the name of the city you want to check the weather for in the input field.
+   - Click the search button to retrieve weather data.
+
+**File Details:**
+
+**index.html:**
+- The HTML structure of the weather app.
+- It includes input fields for city names, a search button, and elements to display weather information.
+
+**style.css:**
+- Defines the visual style of the weather app.
+- Styles are applied to various elements, making the app visually appealing.
+
+**script.js:**
+- Manages user interactions, including input validation and handling API requests.
+- Retrieves weather data from the OpenWeatherMap API based on the user's input.
+- Updates the UI to display weather information.
+
+**Important Notes:**
+- This weather app relies on the OpenWeatherMap API to fetch weather data.
+- You must sign up on the OpenWeatherMap website to obtain an API key.
+- Insert your API key in the `script.js` file for the app to function correctly.
+- Ensure an active internet connection when using this app as it makes real-time API requests.
+
+**Support and Contact:**
+For questions, issues, or assistance with this weather app, please contact Manish Worx via the following channels:
+- Website: [Manish Worx](https://manishworx.com/)
+- GitHub: [Manish Worx on GitHub](https://github.com/worxmani)
+
+---
+
+Feel free to customize this documentation further to suit your needs, including formatting, additional details, or any other information you'd like to include.
